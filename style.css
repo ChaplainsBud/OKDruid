@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 189, 6);
+    
+}
+
+nav {
+    background-color: lightgreen;
+    border: 3px solid black;
+}
+
+/* how do I unite nav color with hero image color? */
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li:first-child {
+    flex-grow: 2;
+}
+
+nav ul li {
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+
+.h1 input {
+    margin: 20px;
+}
+
+img {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 500px;
+    width: 75vw;
+    border: 4px solid black;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div {
+    color: white;
+}
+
+footer div li {
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+div a {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+footer div:first-child {
+    position: relative;
+    top: 25px;
+}
+
+li:first-child  {
+    font-size: 1.5rem;
+}
